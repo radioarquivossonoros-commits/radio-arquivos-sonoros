@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Arquivos Sonoros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: #111;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .player {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 320px;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player">
+        <h1>rádio arquivos sonoros</h1>
+
+        <audio controls autoplay>
+            <source src="http://208.110.84.130:8604/stream" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+    </div>
+
+</body>
+</html>
